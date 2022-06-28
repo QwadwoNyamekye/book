@@ -23,7 +23,6 @@ class Book(models.Model):
     def __str__(self):
         return self.title
 
-
 class Contributor(models.Model):
     """
     A contributor to a Book, e.g. author, editor, \
